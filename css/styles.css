@@ -1,0 +1,46 @@
+body {
+    align-items: center;
+    margin: 25%;
+}
+
+.head {
+    text-align: center;
+    height: 40px;
+    width: 800px;
+    background-color: red;
+    color: #ffffff;
+    font-size: 25px;
+    margin-bottom: 25px;
+}
+
+.title {
+    font-stretch: condensed;
+    text-align: center;
+    margin: 10px;
+    padding: center;
+}
+
+.container {
+    text-align: center;
+}
+
+.img1 {
+    align-items: center;
+    margin-bottom: 25px;
+}
+
+.text {
+    font-size: 18px;
+}
+
+.img2 {
+    margin: 15px;
+}
+
+.cellar {
+    font-size: 20px;
+}
+
+.foot {
+
+}
