@@ -1,16 +1,19 @@
 body {
     align-items: center;
-    margin: 25%;
+    display: flex;
+    justify-content: flex-end;
+    flex-direction: column;
 }
 
 .head {
     text-align: center;
-    height: 40px;
-    width: 800px;
+    flex-grow: inherit;
+    height: 30px;
+    width: 755px;
     background-color: red;
     color: #ffffff;
     font-size: 25px;
-    margin-bottom: 25px;
+    margin-top: 25px;
 }
 
 .title {
@@ -20,27 +23,56 @@ body {
     padding: center;
 }
 
+
 .container {
     text-align: center;
+    padding: 0 600px 0;
+    text-align:  left;
+    margin-top: 20px;
+}
+
+
+em {
+    color: blueviolet;
+    font-style: italic;
+}
+
+strong {
+    font-weight: bold;
 }
 
 .img1 {
     align-items: center;
-    margin-bottom: 25px;
+    flex-direction: bottom 50px;
 }
 
 .text {
     font-size: 18px;
+    
 }
 
 .img2 {
     margin: 15px;
+    text-align: center;
+    flex-direction: column;
+    
+}
+
+.simg {
+    
+    border-style: ridge;
 }
 
 .cellar {
     font-size: 20px;
 }
 
-.foot {
 
+.foot {
+    text-align: center;
+    color: white;
+    margin-top: 30px;
+    background-color: black;
+    height: 20px;
+    width: 755px;
 }
